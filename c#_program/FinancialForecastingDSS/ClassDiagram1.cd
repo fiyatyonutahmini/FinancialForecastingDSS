@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FinancialForecastingDSS.MongoDBService" Collapsed="true">
+    <Position X="8.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAABIAAAgIBEAAAMAAAwSAAAAQQAAAAAAAAEAAgkA=</HashCode>
+      <FileName>MongoDBService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.IndicatorDataPreprocessor" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAIIAAAAABAAAABAQCAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>indicators\IndicatorDataPreprocessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.MovingAverage" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAACIAgEAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>indicators\MovingAverage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.MovingAverageConvergenceDivergence" Collapsed="true">
+    <Position X="3.25" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAAACQAAAACgAIUAACIAAAAAABQAAAAAIAA=</HashCode>
+      <FileName>indicators\MovingAverageConvergenceDivergence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.RelativeStrengthIndex" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>indicators\RelativeStrengthIndex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.Stochastics" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAEAQAAAACCAAAACgAAAAAICABACAAAYAQAAABEQ=</HashCode>
+      <FileName>indicators\Stochastics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.WilliamsR" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>indicators\WilliamsR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.CrossValidator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAACICAAAAAIAQACAIAAAAAAAEAA=</HashCode>
+      <FileName>ml\algorithms\CrossValidator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.CrossValidatorModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\algorithms\CrossValidatorModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.LinearRegression" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACAAAIBAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>ml\algorithms\LinearRegression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.LinearRegressionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAQAAAAAAEACAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\algorithms\LinearRegressionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.LogisticRegression" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAACAACAAAAAAAAABAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\algorithms\LogisticRegression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.LogisticRegressionModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\algorithms\LogisticRegressionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.NaiveBayes" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAABAgAAAAAAAAAAA=</HashCode>
+      <FileName>ml\algorithms\NaiveBayes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.algorithms.NaiveBayesModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAEABAgAAAAAAAAAAA=</HashCode>
+      <FileName>ml\algorithms\NaiveBayesModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.BinaryClassificationEvaluator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAMAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\BinaryClassificationEvaluator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinancialForecastingDSS.ml.FeatureVector" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAABAAAAAAAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ml\FeatureVector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.indicators.IndicatorService" Collapsed="true">
+    <Position X="8.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAQAAAAAEAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>indicators\IndicatorService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.MathService" Collapsed="true">
+    <Position X="8.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MathService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.Program" Collapsed="true">
+    <Position X="8.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAACAAAAABQAAgBAAAAAABBAAACA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinancialForecastingDSS.form.View" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAIAQmCAABAUoRiAAAACICCGTCAABCCAACAABAA=</HashCode>
+      <FileName>form\View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FinancialForecastingDSS.ml.Estimator" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\Estimator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FinancialForecastingDSS.ml.Evaluator" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\Evaluator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FinancialForecastingDSS.ml.Transformer" Collapsed="true">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ml\Transformer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
