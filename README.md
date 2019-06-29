@@ -8,4 +8,4 @@ This project is built by [Yasin Uygun](https://github.com/yasinuygun) and [Ramaz
 
 # Repository Contents and How to Run the Program
 
-`c#_program` is the decision support system that is coded in C#. It uses the `spark_streaming_program` that is coded in Java. In order to run the application, first run the Java program and enter the number of features and machine learning algorithm you want to use. Then run the C# program, and set the features you want to use. Once you started both of the programs, system will start to run.
+`c#_program` is the decision support system that is coded in C#. It uses the `spark_streaming_program` that is coded in Java. In order to run the application, first run the Java program and enter the number of features and machine learning algorithm you want to use. Then run the C# program, and set the features you want to use. Once you started both of the programs, the system will start to run.
